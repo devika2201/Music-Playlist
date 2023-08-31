@@ -1,0 +1,49 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #152850;
+  min-height: 65vh;
+  min-width: 100vw;
+  background-size: cover;
+}
+
+.songs-heading {
+  color: aliceblue;
+  font-family: 'Roboto';
+  margin: 20px;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-container {
+  background-color: transparent;
+  height: 5vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 15vw;
+  padding: 10px;
+  margin: 20px;
+}
+
+.list-items {
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.home {
+  margin: 20px;
+}
+
+.no-songs-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-songs-heading {
+  color: aliceblue;
+}

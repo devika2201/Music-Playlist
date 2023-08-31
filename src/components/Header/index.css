@@ -1,0 +1,30 @@
+.navbar-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png ');
+  height: 35vh;
+  width: 100vw;
+  min-width: 100vw;
+  min-height: 35vh;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.heading {
+  color: aliceblue;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  font-size: 35px;
+}
+
+.para {
+  color: aliceblue;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  font-family: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
